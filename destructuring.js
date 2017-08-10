@@ -12,7 +12,9 @@ var carDetails = {
 }
 
 // CODE HERE
-
+newVariable = for(var key in carDetails) {
+  key = carDetails[key];
+}
 
 // ========================
 
